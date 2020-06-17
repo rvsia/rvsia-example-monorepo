@@ -9,7 +9,7 @@ module.exports = {
     '@semantic-release/npm',
     {
       'path': '@semantic-release/git',
-      'message': 'chore(' + output.package + '): release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
+      'message': 'chore(version): release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
     }
   ],
   publish: [
