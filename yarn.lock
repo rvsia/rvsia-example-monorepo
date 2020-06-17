@@ -1400,6 +1400,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@khala/commit-analyzer-wildcard@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@khala/commit-analyzer-wildcard/-/commit-analyzer-wildcard-2.4.1.tgz#50ce5891f0726227a0cb1aa123e2345c35b38091"
+  integrity sha512-q1PTuPN/wTLUbF5uu8+UmxYH9at2FDrftnJu/aPQtJY8n/2kw+OYpxmiu3CNFUgo6bdvost3sWzlkkUChewV+w==
+
 "@lerna/add@3.21.0":
   version "3.21.0"
   resolved "https://registry.yarnpkg.com/@lerna/add/-/add-3.21.0.tgz#27007bde71cc7b0a2969ab3c2f0ae41578b4577b"

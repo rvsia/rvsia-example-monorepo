@@ -5,8 +5,12 @@
     "workspaces": [
         "packages/**"
     ],
-    "scripts": {},
+    "scripts": {
+        "build": "lerna run build --concurrency 1",
+        "release": "semantic-release"
+    },
     "devDependencies": {
+        "@khala/commit-analyzer-wildcard": "^2.4.1",
         "lerna": "^3.22.1",
         "semantic-release": "16.0.4",
         "semantic-release-monorepo": "^7.0.2"

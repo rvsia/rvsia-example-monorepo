@@ -3,5 +3,18 @@
         "master",
         {"name": "beta", "channel": "beta", "prelease": "beta"}
     ],
-    "extends": "semantic-release-monorepo"
+    "extends": "semantic-release-monorepo",
+    "plugins": [
+        [
+            "@khala/commit-analyzer-wildcard",
+            {
+              "patterns": {
+                "major": "^(majormajor|breakingbreaking)\\(",
+                "minor": "^feat\\(",
+                "patch": "^(fix|patch)\\("
+              },
+              "defaultRelease": "no-release"
+            }
+          ]
+    ]
 }
