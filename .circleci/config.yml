@@ -29,7 +29,7 @@ jobs:
       - run:
           name: Release new version
           command: |
-            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/react-forms/.npmrc
+            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/rvsia-example-monorepo/.npmrc
             yarn release
 
 workflows:
