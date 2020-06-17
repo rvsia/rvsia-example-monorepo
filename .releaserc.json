@@ -3,6 +3,7 @@
         "master",
         {"name": "beta", "channel": "beta", "prelease": "beta"}
     ],
+    "monorepo": "./packages",
     "extends": "semantic-release-monorepo",
     "plugins": [
         [
