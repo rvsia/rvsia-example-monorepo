@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "name": "rvsia-example-monorepo",
+    "repository": "https://github.com/rvsia/rvsia-example-monorepo.git",
+    "workspaces": [
+        "packages/**"
+    ],
+    "scripts": {},
+    "devDependencies": {
+        "lerna": "^3.22.1",
+        "semantic-release": "16.0.4",
+        "semantic-release-monorepo": "^7.0.2"
+    }
+}
