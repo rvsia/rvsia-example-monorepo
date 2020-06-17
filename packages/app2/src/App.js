@@ -17,6 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          Trigger change in APP2
         </a>
       </header>
     </div>
