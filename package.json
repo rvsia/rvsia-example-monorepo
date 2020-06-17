@@ -7,11 +7,12 @@
     ],
     "scripts": {
         "build": "lerna run build --concurrency 1",
-        "release": "semantic-release"
+        "release": "multi-semantic-release"
     },
     "devDependencies": {
         "@khala/commit-analyzer-wildcard": "^2.4.1",
         "lerna": "^3.22.1",
+        "multi-semantic-release": "^2.0.0",
         "semantic-release": "16.0.4",
         "semantic-release-monorepo": "^7.0.2"
     }
