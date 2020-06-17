@@ -3,5 +3,5 @@ module.exports = {
       "master",
       {"name": "beta", "channel": "beta", "prelease": "beta"}
   ],
-  //"extends": "semantic-release-monorepo"
+  "extends": "semantic-release-monorepo"
 };
