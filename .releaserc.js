@@ -5,7 +5,6 @@ module.exports = {
   ],
   "extends": "semantic-release-monorepo",
   prepare: [
-    '@semantic-release/changelog',
     '@semantic-release/npm',
   ],
   publish: [
