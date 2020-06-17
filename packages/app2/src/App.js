@@ -18,6 +18,7 @@ function App() {
         >
           Learn React
           Trigger change in APP2
+          beta tag
         </a>
       </header>
     </div>
